@@ -1,0 +1,21 @@
+#secondpage{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px 20px 80px;
+    border-bottom:5px solid rgb(59, 53, 53);
+}
+#secondpage div{
+    padding: 80px;
+    margin: 50px 20px;
+}
+#secondpage div h1{
+   padding-bottom: 10px;
+}
+#secondpage div p{
+    font-size: larger;
+    font-weight: 500;
+}
+#secondpage img{
+    width: 800px;
+    height: 400px;
+}

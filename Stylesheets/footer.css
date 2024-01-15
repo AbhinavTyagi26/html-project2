@@ -1,0 +1,18 @@
+#footer{
+    padding: 50px 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+#footerlink{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#footerlink ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+}

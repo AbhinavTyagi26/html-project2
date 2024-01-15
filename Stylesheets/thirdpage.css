@@ -1,0 +1,16 @@
+#thirdpage{
+    display: flex;
+    padding: 20px 120px 10px 140px;
+    border-bottom: 5px solid rgb(59, 53, 53);
+}
+#thirdpage div{
+    padding: 130px;
+}
+#thirdpage div p{
+    margin-top: 10px;
+}
+#thirdpage img{
+    height: 400px;
+    width: 450px;
+
+}

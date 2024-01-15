@@ -1,0 +1,16 @@
+#fifthpage{
+    display: flex;
+    padding: 20px 120px 10px 120px;
+    border-bottom: 5px solid rgb(59, 53, 53);
+}
+#fifthpage div{
+    padding: 130px;
+}
+#fifthpage div p{
+    margin-top: 10px;
+}
+#fifthpage img{
+    height: 400px;
+    width: 500px;
+
+}

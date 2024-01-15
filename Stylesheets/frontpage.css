@@ -1,0 +1,72 @@
+#frontpage {
+  border-bottom: 5px solid rgb(244, 232, 232);
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url(Images/header-image.png);
+        background-size: cover;
+        background-position: center;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+#sidebuttons button {
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.languagebutton{
+  display: inline;
+  border: 1px solid white;
+  padding: 5px;
+  font-size: 15px;
+}
+#img1 {
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+
+#img2 {
+  vertical-align: middle;
+}
+#mainheading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+#mainheading h1{
+  font-size:40px;
+  margin: 10px;
+}
+#mainheading h3{
+  margin: 5px;
+}
+#mainheading p{
+  margin:10px;
+}
+#mainheading input{
+  width: 360px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 0px;
+  font-weight: 600;
+  outline: none;
+}
+#mainheading button{
+  font-size: 15px;
+  padding: 10px 18px;
+  border-radius: 0px;
+  font-weight: 600;
+  background-color: red;
+  color: white;
+
+}

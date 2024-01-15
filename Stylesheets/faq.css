@@ -1,0 +1,72 @@
+#faq{
+    padding: 20px 13%;
+    text-align: center;
+    border-bottom: 5px solid rgb(59, 53, 53);
+}
+
+#questions{
+    margin: 40px auto;
+    width: 100%;
+    max-width: 700px;
+}
+ #questions li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+#questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+} 
+label::after{
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+#questions li div{
+     background: #303030;
+     text-align: left;
+     padding: 0px 20px;
+     max-height: 0;
+     overflow: hidden;
+     transition: max-height 0.5s, padding 0.5s;
+}
+#questions input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+#questions input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+#emailbar{
+    margin: 15px;
+}
+#emailbar input{
+    width: 400px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 0px;
+    font-weight: 600;
+    outline: none;
+  }
+  #emailbar button{
+    font-size: 15px;
+    padding: 10px 18px;
+    border-radius: 0px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+  
+  }

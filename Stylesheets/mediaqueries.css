@@ -1,0 +1,92 @@
+@media screen and (max-width: 414px) {
+  #header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  #sidebuttons {
+    margin: 10px;
+  }
+  #mainheading {
+    margin-top: 100px;
+    margin: 10px;
+  }
+  #mainheading input {
+    width: 250px;
+  }
+  #secondpage {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  #secondpage div {
+    padding: 40px;
+    margin: 10px;
+  }
+  #secondpage img {
+    width: 250px;
+    height: 250px;
+  }
+  #thirdpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  #thirdpage div {
+    padding: 15px;
+  }
+  #fourthpage {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  #fourthpage div {
+    padding: 20px;
+    margin: 10px;
+  }
+  #fourthpage img {
+    width: 300px;
+    height: 250px;
+  }
+  #fifthpage {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  #fifthpage img{
+    height: 300px;
+    width: 350px;
+  }
+  #fifthpage div{
+    padding: 20px;
+  }
+  #emailbar{
+    margin: 0px;
+   }
+  #emailbar input{
+    margin: 10px 0px;
+    width: 190px;
+  }
+  #emailbar button{
+   padding: 10px;
+  }
+  #footer{
+    margin-top: 120px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  #footerlink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-around;
+    
+  }
+}
